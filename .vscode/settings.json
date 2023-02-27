@@ -1,0 +1,15 @@
+{
+    "idf.espIdfPathWin": "C:\\Users\\ynh2\\esp\\esp-idf",
+    "files.associations": {
+        "*.geojson": "json",
+        "*.importmap": "json",
+        "esp_chip_info.h": "c",
+        "task.h": "c",
+        "stdlib.h": "c"
+    },
+    "idf.portWin": "COM6",
+    "idf.adapterTargetName": "esp32c3",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-bridge.cfg"
+    ]
+}

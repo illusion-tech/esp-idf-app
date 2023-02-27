@@ -1,8 +1,6 @@
 {
-    "idf.espIdfPathWin": "C:\\Users\\ynh2\\esp\\esp-idf",
+    "idf.espIdfPathWin": "${env:IDF_PATH}",
     "files.associations": {
-        "*.geojson": "json",
-        "*.importmap": "json",
         "esp_chip_info.h": "c",
         "task.h": "c",
         "stdlib.h": "c"
@@ -11,5 +9,13 @@
     "idf.adapterTargetName": "esp32c3",
     "idf.openOcdConfigs": [
         "board/esp32c3-bridge.cfg"
+    ],
+    "idf.flashType": "UART",
+    "cSpell.words": [
+        "Espressif",
+        "FLOWCTRL",
+        "Kconfig",
+        "LOGI",
+        "SCLK"
     ]
 }
